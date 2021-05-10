@@ -1,0 +1,112 @@
+
+
+
+#banner {
+	background:#099FC1;
+	height: 76px;
+	width:100%;
+	box-sizing: border-box;
+}
+
+#nav_bar {
+	position:absolute;
+	top:76px;
+	height:45px;
+	display:block;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	width:100%;
+	box-sizing: border-box;
+	z-index: 9;
+}
+
+#download_text{
+
+}
+
+.nav-item {
+	background:#B2D234 !important;
+	z-index:5;
+	text-decoration-color:#099FC1;
+	opacity:.9;
+}
+
+#nav_buffer {
+	max-width: 100%;
+	height:135px;
+	top: 76px;
+	background:#F15922;
+}
+
+#logo {
+	position:absolute;
+	z-index: 2;
+	left:0px;
+}
+
+.carousel-control-next {
+	z-index: 2;
+}
+
+.carousel-inner {
+	max-width: 100%;
+	height:auto;
+}
+
+
+#carousel-below {
+	background:#F15922;
+	height:76px;
+}
+
+#video {
+	size:200%;
+	text-align:center;
+}
+
+#videoText {
+
+}
+
+#videoButton {
+	text-align: center;
+}
+
+#scroll {
+	height:120px;
+	width:300px;
+	border:1px solid;
+	overflow: auto;
+}
+
+.thumbnails {
+	align-content: center;
+	padding-left: 18%;
+	max-width: 85%
+}
+
+.flyers {
+	align-content: center;
+	padding-left: 29%;
+	max-width: 79%
+}	
+.justify-content-end {
+	justify-content: flex-end!important;
+}
+
+.faq {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px
+	color:#4c4c4c;
+	position:relative;
+	font-weight: 400;
+}
+
+
+
